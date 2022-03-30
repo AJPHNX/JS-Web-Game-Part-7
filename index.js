@@ -14,7 +14,18 @@ async function moveNPC(){
     await npc.walkWest(2700)
     await npc.walkNorth(400)
 }
+// function* infinite() {
+//     let index = 0;
+//     while (true) {
+//         yield index++;
+//     }
+// }
+
 moveNPC()
+
+
+//const generator = infinite(); 
+
 
 // Create the inventory
 const inventory = newInventory()
